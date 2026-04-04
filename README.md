@@ -5,7 +5,7 @@
 > A Python-based binary forensics tool built for CTF challenges and real-world file analysis. Scans any file for hidden embedded payloads, detects steganography, and carves embedded files out with format-aware precision — with zero external dependencies.
 
 <!-- [SCREENSHOT: terminal running hexforge.py challenge.png showing the banner and clean output with ZIP detected] -->
- ![Alt Text](assets/hexforge_banner.png "HEXFORGE Banner")
+ ![HEXFORGE Banner](assets/hexforge_banner.png "HEXFORGE Banner")
 
 ---
 
@@ -117,7 +117,7 @@ HEXFORGE produces eight analysis sections for every file:
 
 <!-- [SCREENSHOT: hexforge output on challenge.png showing sections 05 and 06 with the ZIP detected] -->
 
- ![Alt Text](/home/spirit/projects/assets/hexforge_sec_5-6_out.png "HEXFORGE Output")
+ ![HEXFORGE Output](/home/spirit/projects/assets/hexforge_sec_5-6_out.png "HEXFORGE Output")
 
 
 
