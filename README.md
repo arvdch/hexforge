@@ -5,6 +5,7 @@
 > A Python-based binary forensics tool built for CTF challenges and real-world file analysis. Scans any file for hidden embedded payloads, detects steganography, and carves embedded files out with format-aware precision — with zero external dependencies.
 
 <!-- [SCREENSHOT: terminal running hexforge.py challenge.png showing the banner and clean output with ZIP detected] -->
+ ![Alt Text](assets/hexforge_banner.png "HEXFORGE Banner")
 
 ---
 
@@ -115,6 +116,10 @@ HEXFORGE produces eight analysis sections for every file:
 **08 LSB Steganography Detection** — chi-squared test on pixel LSBs. If the distribution is suspiciously uniform, the first 64 bytes of the LSB bitstream are decoded and shown as a preview — useful for confirming if there's readable text hidden in the image.
 
 <!-- [SCREENSHOT: hexforge output on challenge.png showing sections 05 and 06 with the ZIP detected] -->
+
+ ![Alt Text](/home/spirit/projects/assets/hexforge_sec_5-6_out.png "HEXFORGE Output")
+
+
 
 ---
 
