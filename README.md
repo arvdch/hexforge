@@ -117,7 +117,7 @@ HEXFORGE produces eight analysis sections for every file:
 
 <!-- [SCREENSHOT: hexforge output on challenge.png showing sections 05 and 06 with the ZIP detected] -->
 
- ![HEXFORGE Output](/home/spirit/projects/assets/hexforge_sec_5-6_out.png "HEXFORGE Output")
+ ![HEXFORGE Output](assets/hexforge_sec_5-6_out.png "HEXFORGE Output")
 
 
 
