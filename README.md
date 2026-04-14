@@ -43,26 +43,34 @@ On the `challenge.png` file above, binwalk reports nothing. HEXFORGE finds the e
 ```bash
 git clone https://github.com/arvdch/hexforge
 cd hexforge
+```
 
 # Basic analysis
+```
 python3 hexforge.py challenge.png
-
+```
 # With strings and LSB stego detection
+```
 python3 hexforge.py stego.png --strings --lsb
-
+```
 # Extract embedded files
+```
 python3 hexforge.py challenge.png --extract
-
+```
 # Extract to a specific folder
+```
 python3 hexforge.py challenge.png --extract --out ./carved
-
+```
 # Write a JSON report
+```
 python3 hexforge.py binary.bin --json report.json
-
+```
 # Batch scan a directory
+```
 python3 hexforge.py --scan ./firmware_dump/
-
+```
 # List all 175 known signatures
+```
 python3 hexforge.py --list-sigs
 ```
 
